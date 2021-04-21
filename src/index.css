@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --main-background-color: #fcfcfc;
+  --main-background-hover-color: #efefef;
+  --action-color: #33525e;
+  --action-hover-color: #1c6e7f;
+  --container-background-color: #022b3a;
+  --selected-color: #6ccff6;
+  --selected-hover-color: #66c3e8;
+  --text-color: #001011;
+  --error-color: #d00000;
+
+  background: var(--main-background-color);
+  font-size: 22px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 30rem;
+}

@@ -1,0 +1,57 @@
+.vote input {
+  border: none;
+  border-radius: 1rem;
+  font: inherit;
+  padding: 0.5rem;
+}
+
+.vote input[type="text"] {
+  color: var(--text-color);
+  display: block;
+  width: 100%;
+}
+
+.vote input[type="text"]:focus,
+.vote input[type="text"]:hover {
+  background-color: var(--main-background-hover-color);
+}
+
+.vote input[type="submit"] {
+  appearance: none;
+  background-color: var(--action-color);
+  color: var(--main-background-color);
+  cursor: pointer;
+}
+
+.vote input[type="submit"]:focus,
+.vote input[type="submit"]:hover {
+  background-color: var(--action-hover-color);
+}
+
+.vote input[type="submit"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.vote .error-message {
+  font-size: 0.75rem;
+  margin: 0.25rem 0 0 0.5rem;
+}
+
+.vote .input-group {
+  margin-bottom: 0.75rem;
+}
+
+.vote .input-group label {
+  display: inline-block;
+  margin: 0 0.5rem 0.25rem;
+}
+
+.vote .validation-group {
+  border-radius: 1rem;
+  padding: 0.25rem;
+}
+
+.vote .validation-group.error {
+  background-color: var(--error-color);
+}
